@@ -36,14 +36,14 @@ Create a virtualenv to isolate from everything else and activate it first.
 ```shell
 # Python 2
 $ virtualenv fad
-# or Oython 3
+# or Python 3.7 (Tensorflow 1.x cannot be installed in Python3.8, a previous version should be used)
 $ python3 -m venv fad # (apache-beam does not yet support Python 3)
 # activate the virtualenv
 $ source fad/bin/activate
 # Upgrade pip
 $ python -m pip install --upgrade pip
 # Install dependences
-$ pip install apache-beam numpy scipy tensorflow
+$ pip install apache-beam numpy scipy tensorflow==1.15
 ```
 
 #### Clone TensorFlow models repo into a 'models' directory.
