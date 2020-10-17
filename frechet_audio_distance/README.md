@@ -7,7 +7,7 @@ For more details about Fréchet Audio Distance and how we verified it please che
 * K. Kilgour et. al.,
   [Fréchet Audio Distance: A Metric for Evaluating Music Enhancement Algorithms](https://arxiv.org/abs/1812.08466),
 
-## Useage
+## Usage
 
 FAD depends on:
 
@@ -42,7 +42,7 @@ $ python3 -m venv fad # (apache-beam does not yet support Python 3)
 $ source fad/bin/activate
 # Upgrade pip
 $ python -m pip install --upgrade pip
-# Install dependences
+# Install dependencies
 $ pip install apache-beam numpy scipy tensorflow==1.15
 # Or
 $ pip install apache-beam numpy scipy tensorflow_gpu==1.15
