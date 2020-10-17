@@ -44,6 +44,8 @@ $ source fad/bin/activate
 $ python -m pip install --upgrade pip
 # Install dependences
 $ pip install apache-beam numpy scipy tensorflow==1.15
+# Or
+$ pip install apache-beam numpy scipy tensorflow_gpu==1.15
 ```
 
 #### Clone TensorFlow models repo into a 'models' directory.
