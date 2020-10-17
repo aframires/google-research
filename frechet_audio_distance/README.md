@@ -52,7 +52,7 @@ $ pip install apache-beam numpy scipy tensorflow_gpu==1.15
 ```shell
 $ mkdir tensorflow_models
 $ touch tensorflow_models/__init__.py
-$ svn export https://github.com/tensorflow/models/trunk/research/audioset tensorflow_models/audioset/
+$ svn export -r 7574 https://github.com/tensorflow/models/trunk/research/audioset tensorflow_models/audioset/
 $ touch tensorflow_models/audioset/__init__.py
 ```
 
